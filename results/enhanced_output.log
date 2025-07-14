@@ -1,0 +1,297 @@
+2025-07-14 18:47:38,863 - EnhancedCloudStorageSim - INFO - 🎯 Starting Monte Carlo simulation:
+2025-07-14 18:47:38,863 - EnhancedCloudStorageSim - INFO -    Iterations: 3
+2025-07-14 18:47:38,863 - EnhancedCloudStorageSim - INFO -    Duration per iteration: 30s
+2025-07-14 18:47:38,863 - EnhancedCloudStorageSim - INFO -    Buyers: 2, Providers: 3
+2025-07-14 18:47:38,863 - EnhancedCloudStorageSim - INFO - 
+==================== ITERATION 1/3 ====================
+2025-07-14 18:47:38,863 - EnhancedCloudStorageSim - INFO - 🚀 Starting simulation: 30s, 2 buyers, 3 providers
+2025-07-14 18:47:38,863 - EnhancedCloudStorageSim - INFO - 🏢 Network network started
+2025-07-14 18:47:38,990 - EnhancedCloudStorageSim - INFO - 💾 Provider provider0 started: 273GB at $0.895/GB/h
+2025-07-14 18:47:38,990 - EnhancedCloudStorageSim - INFO - 📋 Network registered provider provider0
+2025-07-14 18:47:39,866 - EnhancedCloudStorageSim - INFO - 💾 Provider provider1 started: 254GB at $0.502/GB/h
+2025-07-14 18:47:39,866 - EnhancedCloudStorageSim - INFO - 📋 Network registered provider provider1
+2025-07-14 18:47:40,476 - EnhancedCloudStorageSim - INFO - 💾 Provider provider2 started: 215GB at $0.803/GB/h
+2025-07-14 18:47:40,477 - EnhancedCloudStorageSim - INFO - 📋 Network registered provider provider2
+2025-07-14 18:47:40,978 - EnhancedCloudStorageSim - INFO - 🛒 Buyer buyer0 started with budget $20.46/hour
+2025-07-14 18:47:41,410 - EnhancedCloudStorageSim - INFO - 🛒 buyer0 requested 11GB for 5.1h at max $1.408/GB/h
+2025-07-14 18:47:41,410 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer0-1752529660-913 from buyer0
+2025-07-14 18:47:41,479 - EnhancedCloudStorageSim - INFO - 🛒 Buyer buyer1 started with budget $17.35/hour
+2025-07-14 18:47:41,728 - EnhancedCloudStorageSim - INFO - 🏢 Network forwarded request REQ-buyer0-1752529660-913 to provider provider1
+2025-07-14 18:47:41,814 - EnhancedCloudStorageSim - INFO - 🟢 Provider provider1 accepted contract CONT-1752529661-5199 (11GB, $28.11)
+2025-07-14 18:47:41,893 - EnhancedCloudStorageSim - INFO - 🛒 buyer1 requested 35GB for 5.9h at max $0.374/GB/h
+2025-07-14 18:47:41,894 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer1-1752529661-821 from buyer1
+2025-07-14 18:47:41,980 - EnhancedCloudStorageSim - INFO - ⏱️ Simulation running for 30 seconds...
+2025-07-14 18:47:42,157 - EnhancedCloudStorageSim - INFO - 🏢 Network sent failure response for REQ-buyer1-1752529661-821: no_suitable_provider
+2025-07-14 18:47:42,157 - EnhancedCloudStorageSim - INFO - ❌ buyer1 request REQ-buyer1-1752529661-821 rejected: no_suitable_provider
+2025-07-14 18:47:42,540 - EnhancedCloudStorageSim - INFO - 🏢 Network completed processing request REQ-buyer0-1752529660-913 in 1.18s
+2025-07-14 18:47:42,540 - EnhancedCloudStorageSim - INFO - ✅ buyer0 contract CONT-1752529661-5199 accepted - Cost: $28.11, Duration: 5.1h
+2025-07-14 18:47:47,256 - EnhancedCloudStorageSim - INFO - 🛒 buyer0 requested 46GB for 4.1h at max $0.445/GB/h
+2025-07-14 18:47:47,256 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer0-1752529666-962 from buyer0
+2025-07-14 18:47:47,378 - EnhancedCloudStorageSim - INFO - 🏢 Network forwarded request REQ-buyer0-1752529666-962 to provider provider1
+2025-07-14 18:47:47,509 - EnhancedCloudStorageSim - INFO - 🟢 Provider provider1 accepted contract CONT-1752529667-1448 (46GB, $76.16)
+2025-07-14 18:47:47,898 - EnhancedCloudStorageSim - INFO - 🏢 Network completed processing request REQ-buyer0-1752529666-962 in 0.91s
+2025-07-14 18:47:47,898 - EnhancedCloudStorageSim - INFO - ✅ buyer0 contract CONT-1752529667-1448 accepted - Cost: $76.16, Duration: 4.1h
+2025-07-14 18:47:50,199 - EnhancedCloudStorageSim - INFO - 🛒 buyer1 requested 28GB for 4.3h at max $0.620/GB/h
+2025-07-14 18:47:50,199 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer1-1752529669-582 from buyer1
+2025-07-14 18:47:50,652 - EnhancedCloudStorageSim - INFO - 🏢 Network forwarded request REQ-buyer1-1752529669-582 to provider provider1
+2025-07-14 18:47:50,708 - EnhancedCloudStorageSim - INFO - 🟢 Provider provider1 accepted contract CONT-1752529670-3086 (28GB, $48.77)
+2025-07-14 18:47:51,328 - EnhancedCloudStorageSim - INFO - 🏢 Network completed processing request REQ-buyer1-1752529669-582 in 1.09s
+2025-07-14 18:47:51,328 - EnhancedCloudStorageSim - INFO - ✅ buyer1 contract CONT-1752529670-3086 accepted - Cost: $48.77, Duration: 4.3h
+2025-07-14 18:47:55,026 - EnhancedCloudStorageSim - INFO - 🛒 buyer0 requested 7GB for 4.4h at max $1.299/GB/h
+2025-07-14 18:47:55,026 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer0-1752529674-149 from buyer0
+2025-07-14 18:47:55,523 - EnhancedCloudStorageSim - INFO - 🏢 Network forwarded request REQ-buyer0-1752529674-149 to provider provider1
+2025-07-14 18:47:55,608 - EnhancedCloudStorageSim - INFO - 🟢 Provider provider1 accepted contract CONT-1752529675-2052 (7GB, $12.35)
+2025-07-14 18:47:56,208 - EnhancedCloudStorageSim - INFO - 🏢 Network completed processing request REQ-buyer0-1752529674-149 in 1.11s
+2025-07-14 18:47:56,208 - EnhancedCloudStorageSim - INFO - ✅ buyer0 contract CONT-1752529675-2052 accepted - Cost: $12.35, Duration: 4.4h
+2025-07-14 18:47:57,564 - EnhancedCloudStorageSim - INFO - 🛒 buyer1 requested 22GB for 3.0h at max $0.789/GB/h
+2025-07-14 18:47:57,564 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer1-1752529677-970 from buyer1
+2025-07-14 18:47:57,845 - EnhancedCloudStorageSim - INFO - 🏢 Network forwarded request REQ-buyer1-1752529677-970 to provider provider1
+2025-07-14 18:47:58,003 - EnhancedCloudStorageSim - INFO - 🟢 Provider provider1 accepted contract CONT-1752529677-4532 (22GB, $26.85)
+2025-07-14 18:47:58,653 - EnhancedCloudStorageSim - INFO - 🏢 Network completed processing request REQ-buyer1-1752529677-970 in 1.12s
+2025-07-14 18:47:58,653 - EnhancedCloudStorageSim - INFO - ✅ buyer1 contract CONT-1752529677-4532 accepted - Cost: $26.85, Duration: 3.0h
+2025-07-14 18:48:01,981 - EnhancedCloudStorageSim - INFO - 🛒 buyer0 requested 30GB for 3.2h at max $0.682/GB/h
+2025-07-14 18:48:01,982 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer0-1752529681-234 from buyer0
+2025-07-14 18:48:02,050 - EnhancedCloudStorageSim - INFO - 🏢 Network forwarded request REQ-buyer0-1752529681-234 to provider provider1
+2025-07-14 18:48:02,188 - EnhancedCloudStorageSim - INFO - 🟢 Provider provider1 accepted contract CONT-1752529681-7523 (30GB, $47.73)
+2025-07-14 18:48:02,784 - EnhancedCloudStorageSim - INFO - 🛒 buyer1 requested 31GB for 2.4h at max $0.306/GB/h
+2025-07-14 18:48:02,795 - EnhancedCloudStorageSim - INFO - 🏢 Network completed processing request REQ-buyer0-1752529681-234 in 0.81s
+2025-07-14 18:48:02,795 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer1-1752529682-262 from buyer1
+2025-07-14 18:48:02,795 - EnhancedCloudStorageSim - INFO - ✅ buyer0 contract CONT-1752529681-7523 accepted - Cost: $47.73, Duration: 3.2h
+2025-07-14 18:48:02,960 - EnhancedCloudStorageSim - INFO - 🏢 Network sent failure response for REQ-buyer1-1752529682-262: no_suitable_provider
+2025-07-14 18:48:02,960 - EnhancedCloudStorageSim - INFO - ❌ buyer1 request REQ-buyer1-1752529682-262 rejected: no_suitable_provider
+2025-07-14 18:48:06,432 - EnhancedCloudStorageSim - INFO - 🛒 buyer0 requested 41GB for 3.1h at max $0.263/GB/h
+2025-07-14 18:48:06,432 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer0-1752529686-143 from buyer0
+2025-07-14 18:48:06,887 - EnhancedCloudStorageSim - INFO - 🏢 Network sent failure response for REQ-buyer0-1752529686-143: no_suitable_provider
+2025-07-14 18:48:06,887 - EnhancedCloudStorageSim - INFO - ❌ buyer0 request REQ-buyer0-1752529686-143 rejected: no_suitable_provider
+2025-07-14 18:48:06,908 - EnhancedCloudStorageSim - INFO - 🛒 buyer1 requested 17GB for 2.5h at max $0.294/GB/h
+2025-07-14 18:48:06,909 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer1-1752529686-510 from buyer1
+2025-07-14 18:48:06,970 - EnhancedCloudStorageSim - INFO - 🏢 Network sent failure response for REQ-buyer1-1752529686-510: no_suitable_provider
+2025-07-14 18:48:06,970 - EnhancedCloudStorageSim - INFO - ❌ buyer1 request REQ-buyer1-1752529686-510 rejected: no_suitable_provider
+2025-07-14 18:48:11,981 - EnhancedCloudStorageSim - INFO - 🏢 Network network stopped
+2025-07-14 18:48:11,981 - EnhancedCloudStorageSim - INFO - 💾 Provider provider0 stopped
+2025-07-14 18:48:11,981 - EnhancedCloudStorageSim - INFO - 💾 Provider provider1 stopped
+2025-07-14 18:48:11,981 - EnhancedCloudStorageSim - INFO - 💾 Provider provider2 stopped
+2025-07-14 18:48:11,981 - EnhancedCloudStorageSim - INFO - 🛒 Buyer buyer0 stopped
+2025-07-14 18:48:11,981 - EnhancedCloudStorageSim - INFO - 🛒 Buyer buyer1 stopped
+2025-07-14 18:48:13,984 - EnhancedCloudStorageSim - INFO - 📊 Iteration 1 Summary:
+2025-07-14 18:48:13,984 - EnhancedCloudStorageSim - INFO -    Success Rate: 30.0%
+2025-07-14 18:48:13,984 - EnhancedCloudStorageSim - INFO -    Avg Response Time: 1.06s
+2025-07-14 18:48:13,984 - EnhancedCloudStorageSim - INFO -    Provider Utilization: 0.33
+2025-07-14 18:48:13,984 - EnhancedCloudStorageSim - INFO -    Network Corruptions: 0
+2025-07-14 18:48:13,984 - EnhancedCloudStorageSim - INFO -    Economic Efficiency: 100.0%
+2025-07-14 18:48:15,986 - EnhancedCloudStorageSim - INFO - 
+==================== ITERATION 2/3 ====================
+2025-07-14 18:48:15,986 - EnhancedCloudStorageSim - INFO - 🚀 Starting simulation: 30s, 2 buyers, 3 providers
+2025-07-14 18:48:15,986 - EnhancedCloudStorageSim - INFO - 🏢 Network network started
+2025-07-14 18:48:16,160 - EnhancedCloudStorageSim - INFO - 💾 Provider provider0 started: 244GB at $0.757/GB/h
+2025-07-14 18:48:16,161 - EnhancedCloudStorageSim - INFO - 📋 Network registered provider provider0
+2025-07-14 18:48:17,152 - EnhancedCloudStorageSim - INFO - 💾 Provider provider1 started: 124GB at $0.611/GB/h
+2025-07-14 18:48:17,153 - EnhancedCloudStorageSim - INFO - 📋 Network registered provider provider1
+2025-07-14 18:48:17,809 - EnhancedCloudStorageSim - INFO - 💾 Provider provider2 started: 168GB at $0.785/GB/h
+2025-07-14 18:48:17,810 - EnhancedCloudStorageSim - INFO - 📋 Network registered provider provider2
+2025-07-14 18:48:18,310 - EnhancedCloudStorageSim - INFO - 🛒 Buyer buyer0 started with budget $35.95/hour
+2025-07-14 18:48:18,365 - EnhancedCloudStorageSim - INFO - 🛒 buyer0 requested 13GB for 3.6h at max $1.360/GB/h
+2025-07-14 18:48:18,365 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer0-1752529698-143 from buyer0
+2025-07-14 18:48:18,811 - EnhancedCloudStorageSim - INFO - 🛒 Buyer buyer1 started with budget $38.50/hour
+2025-07-14 18:48:18,811 - EnhancedCloudStorageSim - INFO - 🏢 Network forwarded request REQ-buyer0-1752529698-143 to provider provider1
+2025-07-14 18:48:18,948 - EnhancedCloudStorageSim - INFO - 🟢 Provider provider1 accepted contract CONT-1752529698-6737 (13GB, $28.65)
+2025-07-14 18:48:19,145 - EnhancedCloudStorageSim - INFO - 🛒 buyer1 requested 16GB for 1.4h at max $1.243/GB/h
+2025-07-14 18:48:19,145 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer1-1752529698-680 from buyer1
+2025-07-14 18:48:19,311 - EnhancedCloudStorageSim - INFO - ⏱️ Simulation running for 30 seconds...
+2025-07-14 18:48:19,347 - EnhancedCloudStorageSim - INFO - 🏢 Network forwarded request REQ-buyer1-1752529698-680 to provider provider1
+2025-07-14 18:48:19,575 - EnhancedCloudStorageSim - INFO - 🟢 Provider provider1 accepted contract CONT-1752529699-3826 (16GB, $13.89)
+2025-07-14 18:48:19,881 - EnhancedCloudStorageSim - INFO - 🏢 Network completed processing request REQ-buyer0-1752529698-143 in 1.09s
+2025-07-14 18:48:19,881 - EnhancedCloudStorageSim - INFO - ✅ buyer0 contract CONT-1752529698-6737 accepted - Cost: $28.65, Duration: 3.6h
+2025-07-14 18:48:20,300 - EnhancedCloudStorageSim - INFO - 🏢 Network completed processing request REQ-buyer1-1752529698-680 in 1.15s
+2025-07-14 18:48:20,300 - EnhancedCloudStorageSim - INFO - ✅ buyer1 contract CONT-1752529699-3826 accepted - Cost: $13.89, Duration: 1.4h
+2025-07-14 18:48:21,779 - EnhancedCloudStorageSim - INFO - 🛒 buyer0 requested 23GB for 5.5h at max $0.473/GB/h
+2025-07-14 18:48:21,779 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer0-1752529701-660 from buyer0
+2025-07-14 18:48:22,181 - EnhancedCloudStorageSim - INFO - 🏢 Network sent failure response for REQ-buyer0-1752529701-660: no_suitable_provider
+2025-07-14 18:48:22,182 - EnhancedCloudStorageSim - INFO - ❌ buyer0 request REQ-buyer0-1752529701-660 rejected: no_suitable_provider
+2025-07-14 18:48:23,530 - EnhancedCloudStorageSim - INFO - 🛒 buyer1 requested 29GB for 4.3h at max $0.564/GB/h
+2025-07-14 18:48:23,530 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer1-1752529703-488 from buyer1
+2025-07-14 18:48:23,708 - EnhancedCloudStorageSim - INFO - 🏢 Network forwarded request REQ-buyer1-1752529703-488 to provider provider1
+2025-07-14 18:48:23,789 - EnhancedCloudStorageSim - INFO - 🟢 Provider provider1 accepted contract CONT-1752529703-3221 (29GB, $61.14)
+2025-07-14 18:48:24,365 - EnhancedCloudStorageSim - INFO - 🏢 Network completed processing request REQ-buyer1-1752529703-488 in 0.73s
+2025-07-14 18:48:24,365 - EnhancedCloudStorageSim - INFO - ✅ buyer1 contract CONT-1752529703-3221 accepted - Cost: $61.14, Duration: 4.3h
+2025-07-14 18:48:27,722 - EnhancedCloudStorageSim - INFO - 🛒 buyer1 requested 39GB for 5.8h at max $0.987/GB/h
+2025-07-14 18:48:27,722 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer1-1752529707-485 from buyer1
+2025-07-14 18:48:28,120 - EnhancedCloudStorageSim - INFO - 🏢 Network forwarded request REQ-buyer1-1752529707-485 to provider provider1
+2025-07-14 18:48:28,307 - EnhancedCloudStorageSim - INFO - 🟢 Provider provider1 accepted contract CONT-1752529707-2993 (39GB, $139.03)
+2025-07-14 18:48:28,899 - EnhancedCloudStorageSim - INFO - 🏢 Network completed processing request REQ-buyer1-1752529707-485 in 1.20s
+2025-07-14 18:48:28,899 - EnhancedCloudStorageSim - INFO - ✅ buyer1 contract CONT-1752529707-2993 accepted - Cost: $139.03, Duration: 5.8h
+2025-07-14 18:48:29,955 - EnhancedCloudStorageSim - INFO - 🛒 buyer0 requested 15GB for 5.0h at max $0.265/GB/h
+2025-07-14 18:48:29,955 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer0-1752529709-587 from buyer0
+2025-07-14 18:48:30,144 - EnhancedCloudStorageSim - INFO - 🏢 Network sent failure response for REQ-buyer0-1752529709-587: no_suitable_provider
+2025-07-14 18:48:30,144 - EnhancedCloudStorageSim - INFO - ❌ buyer0 request REQ-buyer0-1752529709-587 rejected: no_suitable_provider
+2025-07-14 18:48:32,371 - EnhancedCloudStorageSim - INFO - 🛒 buyer0 requested 23GB for 4.6h at max $0.379/GB/h
+2025-07-14 18:48:32,371 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer0-1752529712-319 from buyer0
+2025-07-14 18:48:32,383 - EnhancedCloudStorageSim - INFO - 🛒 buyer1 requested 48GB for 3.2h at max $0.802/GB/h
+2025-07-14 18:48:32,696 - EnhancedCloudStorageSim - INFO - 🏢 Network sent failure response for REQ-buyer0-1752529712-319: no_suitable_provider
+2025-07-14 18:48:32,697 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer1-1752529712-189 from buyer1
+2025-07-14 18:48:32,697 - EnhancedCloudStorageSim - INFO - ❌ buyer0 request REQ-buyer0-1752529712-319 rejected: no_suitable_provider
+2025-07-14 18:48:32,763 - EnhancedCloudStorageSim - INFO - 🏢 Network forwarded request REQ-buyer1-1752529712-189 to provider provider1
+2025-07-14 18:48:32,896 - EnhancedCloudStorageSim - INFO - 🔴 Provider provider1 rejected request REQ-buyer1-1752529712-189: insufficient_space
+2025-07-14 18:48:33,345 - EnhancedCloudStorageSim - INFO - 🏢 Network completed processing request REQ-buyer1-1752529712-189 in 1.03s
+2025-07-14 18:48:33,345 - EnhancedCloudStorageSim - INFO - ❌ buyer1 request REQ-buyer1-1752529712-189 rejected: insufficient_space
+2025-07-14 18:48:36,541 - EnhancedCloudStorageSim - INFO - 🛒 buyer0 requested 36GB for 1.6h at max $0.999/GB/h
+2025-07-14 18:48:36,541 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer0-1752529716-189 from buyer0
+2025-07-14 18:48:36,647 - EnhancedCloudStorageSim - INFO - 🏢 Network forwarded request REQ-buyer0-1752529716-189 to provider provider0
+2025-07-14 18:48:36,774 - EnhancedCloudStorageSim - INFO - 🟢 Provider provider0 accepted contract CONT-1752529716-2461 (36GB, $35.10)
+2025-07-14 18:48:37,079 - EnhancedCloudStorageSim - INFO - 🏢 Network completed processing request REQ-buyer0-1752529716-189 in 0.57s
+2025-07-14 18:48:37,079 - EnhancedCloudStorageSim - INFO - ✅ buyer0 contract CONT-1752529716-2461 accepted - Cost: $35.10, Duration: 1.6h
+2025-07-14 18:48:37,271 - EnhancedCloudStorageSim - INFO - 🛒 buyer1 requested 23GB for 5.7h at max $0.503/GB/h
+2025-07-14 18:48:37,271 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer1-1752529716-514 from buyer1
+2025-07-14 18:48:37,585 - EnhancedCloudStorageSim - INFO - 🏢 Network sent failure response for REQ-buyer1-1752529716-514: no_suitable_provider
+2025-07-14 18:48:37,585 - EnhancedCloudStorageSim - INFO - ❌ buyer1 request REQ-buyer1-1752529716-514 rejected: no_suitable_provider
+2025-07-14 18:48:42,509 - EnhancedCloudStorageSim - INFO - 🛒 buyer0 requested 34GB for 0.7h at max $0.518/GB/h
+2025-07-14 18:48:42,510 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer0-1752529722-368 from buyer0
+2025-07-14 18:48:42,871 - EnhancedCloudStorageSim - INFO - 🏢 Network sent failure response for REQ-buyer0-1752529722-368: no_suitable_provider
+2025-07-14 18:48:42,872 - EnhancedCloudStorageSim - INFO - ❌ buyer0 request REQ-buyer0-1752529722-368 rejected: no_suitable_provider
+2025-07-14 18:48:44,078 - EnhancedCloudStorageSim - INFO - 🛒 buyer1 requested 36GB for 5.9h at max $0.511/GB/h
+2025-07-14 18:48:44,078 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer1-1752529723-388 from buyer1
+2025-07-14 18:48:44,303 - EnhancedCloudStorageSim - INFO - 🏢 Network sent failure response for REQ-buyer1-1752529723-388: no_suitable_provider
+2025-07-14 18:48:44,304 - EnhancedCloudStorageSim - INFO - ❌ buyer1 request REQ-buyer1-1752529723-388 rejected: no_suitable_provider
+2025-07-14 18:48:45,222 - EnhancedCloudStorageSim - INFO - 🛒 buyer0 requested 46GB for 1.8h at max $0.782/GB/h
+2025-07-14 18:48:45,223 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer0-1752529724-750 from buyer0
+2025-07-14 18:48:45,500 - EnhancedCloudStorageSim - INFO - 🏢 Network forwarded request REQ-buyer0-1752529724-750 to provider provider0
+2025-07-14 18:48:45,610 - EnhancedCloudStorageSim - INFO - 🟢 Provider provider0 accepted contract CONT-1752529725-2755 (46GB, $51.20)
+2025-07-14 18:48:45,936 - EnhancedCloudStorageSim - INFO - 🏢 Network completed processing request REQ-buyer0-1752529724-750 in 0.99s
+2025-07-14 18:48:45,937 - EnhancedCloudStorageSim - INFO - ✅ buyer0 contract CONT-1752529725-2755 accepted - Cost: $51.20, Duration: 1.8h
+2025-07-14 18:48:47,117 - EnhancedCloudStorageSim - INFO - 🛒 buyer1 requested 11GB for 4.4h at max $0.211/GB/h
+2025-07-14 18:48:47,118 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer1-1752529726-301 from buyer1
+2025-07-14 18:48:47,224 - EnhancedCloudStorageSim - INFO - 🏢 Network sent failure response for REQ-buyer1-1752529726-301: no_suitable_provider
+2025-07-14 18:48:47,224 - EnhancedCloudStorageSim - INFO - ❌ buyer1 request REQ-buyer1-1752529726-301 rejected: no_suitable_provider
+2025-07-14 18:48:48,466 - EnhancedCloudStorageSim - INFO - 🛒 buyer0 requested 23GB for 2.8h at max $1.404/GB/h
+2025-07-14 18:48:48,467 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer0-1752529728-300 from buyer0
+2025-07-14 18:48:48,692 - EnhancedCloudStorageSim - INFO - 🏢 Network forwarded request REQ-buyer0-1752529728-300 to provider provider0
+2025-07-14 18:48:48,795 - EnhancedCloudStorageSim - INFO - 🟢 Provider provider0 accepted contract CONT-1752529728-2813 (23GB, $49.19)
+2025-07-14 18:48:49,312 - EnhancedCloudStorageSim - INFO - 🏢 Network network stopped
+2025-07-14 18:48:49,312 - EnhancedCloudStorageSim - INFO - 💾 Provider provider0 stopped
+2025-07-14 18:48:49,312 - EnhancedCloudStorageSim - INFO - 💾 Provider provider1 stopped
+2025-07-14 18:48:49,312 - EnhancedCloudStorageSim - INFO - 💾 Provider provider2 stopped
+2025-07-14 18:48:49,312 - EnhancedCloudStorageSim - INFO - 🛒 Buyer buyer0 stopped
+2025-07-14 18:48:49,312 - EnhancedCloudStorageSim - INFO - 🛒 Buyer buyer1 stopped
+2025-07-14 18:48:49,362 - EnhancedCloudStorageSim - INFO - 🏢 Network completed processing request REQ-buyer0-1752529728-300 in 0.80s
+2025-07-14 18:48:49,362 - EnhancedCloudStorageSim - INFO - ✅ buyer0 contract CONT-1752529728-2813 accepted - Cost: $49.19, Duration: 2.8h
+2025-07-14 18:48:51,315 - EnhancedCloudStorageSim - INFO - 📊 Iteration 2 Summary:
+2025-07-14 18:48:51,315 - EnhancedCloudStorageSim - INFO -    Success Rate: 23.3%
+2025-07-14 18:48:51,315 - EnhancedCloudStorageSim - INFO -    Avg Response Time: 0.95s
+2025-07-14 18:48:51,315 - EnhancedCloudStorageSim - INFO -    Provider Utilization: 0.41
+2025-07-14 18:48:51,315 - EnhancedCloudStorageSim - INFO -    Network Corruptions: 0
+2025-07-14 18:48:51,315 - EnhancedCloudStorageSim - INFO -    Economic Efficiency: 100.0%
+2025-07-14 18:48:53,316 - EnhancedCloudStorageSim - INFO - 
+==================== ITERATION 3/3 ====================
+2025-07-14 18:48:53,316 - EnhancedCloudStorageSim - INFO - 🚀 Starting simulation: 30s, 2 buyers, 3 providers
+2025-07-14 18:48:53,316 - EnhancedCloudStorageSim - INFO - 🏢 Network network started
+2025-07-14 18:48:53,772 - EnhancedCloudStorageSim - INFO - 💾 Provider provider0 started: 137GB at $0.541/GB/h
+2025-07-14 18:48:53,772 - EnhancedCloudStorageSim - INFO - 📋 Network registered provider provider0
+2025-07-14 18:48:54,560 - EnhancedCloudStorageSim - INFO - 💾 Provider provider1 started: 254GB at $0.352/GB/h
+2025-07-14 18:48:54,560 - EnhancedCloudStorageSim - INFO - 📋 Network registered provider provider1
+2025-07-14 18:48:55,467 - EnhancedCloudStorageSim - INFO - 💾 Provider provider2 started: 206GB at $0.430/GB/h
+2025-07-14 18:48:55,467 - EnhancedCloudStorageSim - INFO - 📋 Network registered provider provider2
+2025-07-14 18:48:55,968 - EnhancedCloudStorageSim - INFO - 🛒 Buyer buyer0 started with budget $22.99/hour
+2025-07-14 18:48:56,314 - EnhancedCloudStorageSim - INFO - 🛒 buyer0 requested 15GB for 3.5h at max $0.793/GB/h
+2025-07-14 18:48:56,314 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer0-1752529735-348 from buyer0
+2025-07-14 18:48:56,469 - EnhancedCloudStorageSim - INFO - 🛒 Buyer buyer1 started with budget $31.94/hour
+2025-07-14 18:48:56,512 - EnhancedCloudStorageSim - INFO - 🏢 Network forwarded request REQ-buyer0-1752529735-348 to provider provider1
+2025-07-14 18:48:56,588 - EnhancedCloudStorageSim - INFO - 🛒 buyer1 requested 48GB for 5.5h at max $0.665/GB/h
+2025-07-14 18:48:56,588 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer1-1752529736-500 from buyer1
+2025-07-14 18:48:56,700 - EnhancedCloudStorageSim - INFO - 🏢 Network forwarded request REQ-buyer1-1752529736-500 to provider provider1
+2025-07-14 18:48:56,712 - EnhancedCloudStorageSim - INFO - 🟢 Provider provider1 accepted contract CONT-1752529736-6142 (15GB, $18.21)
+2025-07-14 18:48:56,969 - EnhancedCloudStorageSim - INFO - ⏱️ Simulation running for 30 seconds...
+2025-07-14 18:48:57,273 - EnhancedCloudStorageSim - INFO - 🟢 Provider provider1 accepted contract CONT-1752529736-9607 (48GB, $92.48)
+2025-07-14 18:48:57,315 - EnhancedCloudStorageSim - INFO - 🏢 Network completed processing request REQ-buyer0-1752529735-348 in 1.11s
+2025-07-14 18:48:57,315 - EnhancedCloudStorageSim - INFO - ✅ buyer0 contract CONT-1752529736-6142 accepted - Cost: $18.21, Duration: 3.5h
+2025-07-14 18:48:57,605 - EnhancedCloudStorageSim - INFO - 🏢 Network completed processing request REQ-buyer1-1752529736-500 in 0.86s
+2025-07-14 18:48:57,605 - EnhancedCloudStorageSim - INFO - ✅ buyer1 contract CONT-1752529736-9607 accepted - Cost: $92.48, Duration: 5.5h
+2025-07-14 18:49:00,025 - EnhancedCloudStorageSim - INFO - 🛒 buyer1 requested 33GB for 0.8h at max $0.894/GB/h
+2025-07-14 18:49:00,025 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer1-1752529739-386 from buyer1
+2025-07-14 18:49:00,321 - EnhancedCloudStorageSim - INFO - 🏢 Network forwarded request REQ-buyer1-1752529739-386 to provider provider1
+2025-07-14 18:49:00,446 - EnhancedCloudStorageSim - INFO - 🟢 Provider provider1 accepted contract CONT-1752529740-3641 (33GB, $9.64)
+2025-07-14 18:49:01,213 - EnhancedCloudStorageSim - INFO - 🏢 Network completed processing request REQ-buyer1-1752529739-386 in 1.01s
+2025-07-14 18:49:01,214 - EnhancedCloudStorageSim - INFO - ✅ buyer1 contract CONT-1752529740-3641 accepted - Cost: $7.71, Duration: 0.8h
+2025-07-14 18:49:04,029 - EnhancedCloudStorageSim - INFO - 🛒 buyer0 requested 48GB for 4.4h at max $0.479/GB/h
+2025-07-14 18:49:04,029 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer0-1752529743-794 from buyer0
+2025-07-14 18:49:04,327 - EnhancedCloudStorageSim - INFO - 🏢 Network forwarded request REQ-buyer0-1752529743-794 to provider provider1
+2025-07-14 18:49:04,448 - EnhancedCloudStorageSim - INFO - 🟢 Provider provider1 accepted contract CONT-1752529744-8006 (48GB, $59.11)
+2025-07-14 18:49:05,294 - EnhancedCloudStorageSim - INFO - 🏢 Network completed processing request REQ-buyer0-1752529743-794 in 1.21s
+2025-07-14 18:49:05,295 - EnhancedCloudStorageSim - INFO - ✅ buyer0 contract CONT-1752529744-8006 accepted - Cost: $59.11, Duration: 4.4h
+2025-07-14 18:49:06,553 - EnhancedCloudStorageSim - INFO - 🛒 buyer0 requested 49GB for 2.2h at max $0.469/GB/h
+2025-07-14 18:49:06,553 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer0-1752529746-553 from buyer0
+2025-07-14 18:49:06,743 - EnhancedCloudStorageSim - INFO - 🛒 buyer1 requested 12GB for 5.5h at max $1.165/GB/h
+2025-07-14 18:49:06,743 - EnhancedCloudStorageSim - INFO - 🏢 Network forwarded request REQ-buyer0-1752529746-553 to provider provider2
+2025-07-14 18:49:06,743 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer1-1752529746-616 from buyer1
+2025-07-14 18:49:06,829 - EnhancedCloudStorageSim - INFO - 🟢 Provider provider2 accepted contract CONT-1752529746-1627 (49GB, $36.58)
+2025-07-14 18:49:06,880 - EnhancedCloudStorageSim - INFO - 🏢 Network forwarded request REQ-buyer1-1752529746-616 to provider provider1
+2025-07-14 18:49:07,079 - EnhancedCloudStorageSim - INFO - 🟢 Provider provider1 accepted contract CONT-1752529746-1994 (12GB, $23.22)
+2025-07-14 18:49:07,290 - EnhancedCloudStorageSim - INFO - 🏢 Network completed processing request REQ-buyer1-1752529746-616 in 0.87s
+2025-07-14 18:49:07,290 - EnhancedCloudStorageSim - INFO - ✅ buyer1 contract CONT-1752529746-1994 accepted - Cost: $23.22, Duration: 5.5h
+2025-07-14 18:49:07,757 - EnhancedCloudStorageSim - INFO - 🏢 Network completed processing request REQ-buyer0-1752529746-553 in 0.98s
+2025-07-14 18:49:07,757 - EnhancedCloudStorageSim - INFO - ✅ buyer0 contract CONT-1752529746-1627 accepted - Cost: $36.58, Duration: 2.2h
+2025-07-14 18:49:11,807 - EnhancedCloudStorageSim - INFO - 🛒 buyer0 requested 15GB for 3.3h at max $0.716/GB/h
+2025-07-14 18:49:11,808 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer0-1752529751-763 from buyer0
+2025-07-14 18:49:12,086 - EnhancedCloudStorageSim - INFO - 🏢 Network forwarded request REQ-buyer0-1752529751-763 to provider provider2
+2025-07-14 18:49:12,187 - EnhancedCloudStorageSim - INFO - 🟢 Provider provider2 accepted contract CONT-1752529751-5619 (15GB, $16.95)
+2025-07-14 18:49:12,575 - EnhancedCloudStorageSim - INFO - 🏢 Network completed processing request REQ-buyer0-1752529751-763 in 1.01s
+2025-07-14 18:49:12,575 - EnhancedCloudStorageSim - INFO - ✅ buyer0 contract CONT-1752529751-5619 accepted - Cost: $16.95, Duration: 3.3h
+2025-07-14 18:49:12,623 - EnhancedCloudStorageSim - INFO - 🛒 buyer1 requested 32GB for 1.8h at max $0.998/GB/h
+2025-07-14 18:49:12,624 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer1-1752529752-989 from buyer1
+2025-07-14 18:49:12,913 - EnhancedCloudStorageSim - INFO - 🏢 Network forwarded request REQ-buyer1-1752529752-989 to provider provider2
+2025-07-14 18:49:12,978 - EnhancedCloudStorageSim - INFO - 🟢 Provider provider2 accepted contract CONT-1752529752-5985 (32GB, $20.34)
+2025-07-14 18:49:13,471 - EnhancedCloudStorageSim - INFO - 🏢 Network completed processing request REQ-buyer1-1752529752-989 in 0.65s
+2025-07-14 18:49:13,471 - EnhancedCloudStorageSim - INFO - ✅ buyer1 contract CONT-1752529752-5985 accepted - Cost: $20.34, Duration: 1.8h
+2025-07-14 18:49:19,175 - EnhancedCloudStorageSim - INFO - 🛒 buyer0 requested 39GB for 1.4h at max $0.303/GB/h
+2025-07-14 18:49:19,176 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer0-1752529759-695 from buyer0
+2025-07-14 18:49:19,673 - EnhancedCloudStorageSim - INFO - 🏢 Network sent failure response for REQ-buyer0-1752529759-695: no_suitable_provider
+2025-07-14 18:49:19,673 - EnhancedCloudStorageSim - INFO - ❌ buyer0 request REQ-buyer0-1752529759-695 rejected: no_suitable_provider
+2025-07-14 18:49:20,316 - EnhancedCloudStorageSim - INFO - 🛒 buyer1 requested 19GB for 1.3h at max $0.972/GB/h
+2025-07-14 18:49:20,316 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer1-1752529759-166 from buyer1
+2025-07-14 18:49:20,598 - EnhancedCloudStorageSim - INFO - 🏢 Network forwarded request REQ-buyer1-1752529759-166 to provider provider1
+2025-07-14 18:49:20,652 - EnhancedCloudStorageSim - INFO - 🟢 Provider provider1 accepted contract CONT-1752529760-7563 (19GB, $8.89)
+2025-07-14 18:49:21,236 - EnhancedCloudStorageSim - INFO - 🏢 Network completed processing request REQ-buyer1-1752529759-166 in 0.91s
+2025-07-14 18:49:21,236 - EnhancedCloudStorageSim - INFO - ✅ buyer1 contract CONT-1752529760-7563 accepted - Cost: $8.89, Duration: 1.3h
+2025-07-14 18:49:25,172 - EnhancedCloudStorageSim - INFO - 🛒 buyer0 requested 27GB for 4.6h at max $0.852/GB/h
+2025-07-14 18:49:25,172 - EnhancedCloudStorageSim - INFO - 🏢 Network processing request REQ-buyer0-1752529764-768 from buyer0
+2025-07-14 18:49:25,419 - EnhancedCloudStorageSim - INFO - 🏢 Network forwarded request REQ-buyer0-1752529764-768 to provider provider2
+2025-07-14 18:49:25,514 - EnhancedCloudStorageSim - INFO - 🟢 Provider provider2 accepted contract CONT-1752529765-4561 (27GB, $52.93)
+2025-07-14 18:49:26,157 - EnhancedCloudStorageSim - INFO - 🏢 Network completed processing request REQ-buyer0-1752529764-768 in 1.33s
+2025-07-14 18:49:26,158 - EnhancedCloudStorageSim - INFO - ✅ buyer0 contract CONT-1752529765-4561 accepted - Cost: $52.93, Duration: 4.6h
+2025-07-14 18:49:26,970 - EnhancedCloudStorageSim - INFO - 🏢 Network network stopped
+2025-07-14 18:49:26,970 - EnhancedCloudStorageSim - INFO - 💾 Provider provider0 stopped
+2025-07-14 18:49:26,970 - EnhancedCloudStorageSim - INFO - 💾 Provider provider1 stopped
+2025-07-14 18:49:26,970 - EnhancedCloudStorageSim - INFO - 💾 Provider provider2 stopped
+2025-07-14 18:49:26,970 - EnhancedCloudStorageSim - INFO - 🛒 Buyer buyer0 stopped
+2025-07-14 18:49:26,970 - EnhancedCloudStorageSim - INFO - 🛒 Buyer buyer1 stopped
+2025-07-14 18:49:28,972 - EnhancedCloudStorageSim - INFO - 📊 Iteration 3 Summary:
+2025-07-14 18:49:28,973 - EnhancedCloudStorageSim - INFO -    Success Rate: 45.5%
+2025-07-14 18:49:28,973 - EnhancedCloudStorageSim - INFO -    Avg Response Time: 1.22s
+2025-07-14 18:49:28,973 - EnhancedCloudStorageSim - INFO -    Provider Utilization: 0.42
+2025-07-14 18:49:28,973 - EnhancedCloudStorageSim - INFO -    Network Corruptions: 0
+2025-07-14 18:49:28,973 - EnhancedCloudStorageSim - INFO -    Economic Efficiency: 100.6%
+2025-07-14 18:49:28,973 - EnhancedCloudStorageSim - INFO - 
+==================== MONTE CARLO RESULTS ====================
+2025-07-14 18:49:28,973 - EnhancedCloudStorageSim - INFO - 🎯 SUCCESS RATE:
+2025-07-14 18:49:28,973 - EnhancedCloudStorageSim - INFO -    Mean: 32.9% ± 11.3%
+2025-07-14 18:49:28,973 - EnhancedCloudStorageSim - INFO -    Range: 23.3% - 45.5%
+2025-07-14 18:49:28,973 - EnhancedCloudStorageSim - INFO - ⏱️ RESPONSE TIME:
+2025-07-14 18:49:28,973 - EnhancedCloudStorageSim - INFO -    Mean: 1.07s ± 0.14s
+2025-07-14 18:49:28,973 - EnhancedCloudStorageSim - INFO -    Range: 0.95s - 1.22s
+2025-07-14 18:49:28,973 - EnhancedCloudStorageSim - INFO - 💾 PROVIDER UTILIZATION:
+2025-07-14 18:49:28,973 - EnhancedCloudStorageSim - INFO -    Mean: 0.39 ± 0.05
+2025-07-14 18:49:28,973 - EnhancedCloudStorageSim - INFO -    Range: 0.33 - 0.42
+2025-07-14 18:49:28,973 - EnhancedCloudStorageSim - INFO - 💰 ECONOMIC EFFICIENCY:
+2025-07-14 18:49:28,973 - EnhancedCloudStorageSim - INFO -    Mean: 100.2% ± 0.3%
+2025-07-14 18:49:28,973 - EnhancedCloudStorageSim - INFO -    Range: 100.0% - 100.6%
+2025-07-14 18:49:28,973 - EnhancedCloudStorageSim - INFO - 🔒 NETWORK CORRUPTIONS:
+2025-07-14 18:49:28,974 - EnhancedCloudStorageSim - INFO -    Total: 0 across all iterations
+2025-07-14 18:49:28,974 - EnhancedCloudStorageSim - INFO -    Average per iteration: 0.0
+2025-07-14 18:49:28,974 - EnhancedCloudStorageSim - INFO - 
+📈 AGGREGATE TOTALS:
+2025-07-14 18:49:28,974 - EnhancedCloudStorageSim - INFO -    Total Requests: 72
+2025-07-14 18:49:28,974 - EnhancedCloudStorageSim - INFO -    Total Successful: 23
+2025-07-14 18:49:28,974 - EnhancedCloudStorageSim - INFO -    Overall Success Rate: 31.9%
+2025-07-14 18:49:28,974 - EnhancedCloudStorageSim - INFO -    Total Economic Value: $956.53
+2025-07-14 18:49:28,974 - EnhancedCloudStorageSim - INFO -    Simulation Time: 110.1s
+2025-07-14 18:49:28,974 - EnhancedCloudStorageSim - INFO - 📄 Detailed results saved to monte_carlo_results_20250714_184928.json
+2025-07-14 18:49:28,974 - EnhancedCloudStorageSim - INFO - 📊 Summary report saved to simulation_report_20250714_184928.txt

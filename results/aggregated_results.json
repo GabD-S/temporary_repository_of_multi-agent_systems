@@ -1,0 +1,56 @@
+{
+  "collection_timestamp": "2025-07-14T18:51:17.798756",
+  "individual_simulations": {
+    "enhanced": {
+      "requests_total": 72.0,
+      "success_rate": 30.0,
+      "avg_response_time": 1.06,
+      "provider_utilization": 0.33,
+      "network_corruptions": 0.0
+    },
+    "demo": {},
+    "balanced": {
+      "requests_total": 16.0,
+      "success_rate": 43.8,
+      "avg_response_time": 1.27,
+      "contracts_created": 7.0,
+      "provider_utilization": 0.38,
+      "total_earnings": 380.61,
+      "network_corruptions": 0.0
+    },
+    "spade": {}
+  },
+  "json_results": {},
+  "aggregated_statistics": {
+    "success_rate": {
+      "mean": 36.9,
+      "std": 9.758073580374354,
+      "min": 30.0,
+      "max": 43.8
+    },
+    "response_time": {
+      "mean": 1.165,
+      "std": 0.14849242404917495,
+      "min": 1.06,
+      "max": 1.27
+    },
+    "utilization": {
+      "mean": 0.355,
+      "std": 0.03535533905932737,
+      "min": 0.33,
+      "max": 0.38
+    },
+    "earnings": {
+      "total": 380.61,
+      "mean": 380.61,
+      "std": 0
+    }
+  },
+  "summary": {
+    "total_simulations": 2,
+    "successful_simulations": 2,
+    "avg_success_rate": 36.9,
+    "avg_response_time": 1.165,
+    "total_economic_value": 380.61
+  }
+}

@@ -1,0 +1,21 @@
+DECENTRALIZED CLOUD STORAGE NETWORK SIMULATION REPORT
+============================================================
+
+Simulation Configuration:
+  - Iterations: 3
+  - Duration per iteration: 30s
+  - Buyers: 2
+  - Providers: 3
+  - Total simulation time: 110.1s
+
+Key Performance Metrics:
+  - Success Rate: 32.9% ± 11.3%
+  - Response Time: 1.07s ± 0.14s
+  - Provider Utilization: 0.39 ± 0.05
+  - Economic Efficiency: 100.2% ± 0.3%
+  - Network Corruptions: 0 total
+
+System Robustness:
+  - Total Requests Processed: 72
+  - Overall Success Rate: 31.9%
+  - Total Economic Value Generated: $956.53

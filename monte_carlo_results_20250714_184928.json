@@ -1,0 +1,333 @@
+{
+  "simulation_config": {
+    "iterations": 3,
+    "duration_per_iteration": 30,
+    "num_buyers": 2,
+    "num_providers": 3,
+    "total_simulation_time": 110.10945248603821
+  },
+  "statistics": {
+    "success_rate": {
+      "mean": 32.92929292929293,
+      "std": 11.347800413609665,
+      "min": 23.333333333333332,
+      "max": 45.45454545454545,
+      "median": 30.0
+    },
+    "response_time": {
+      "mean": 1.0734968173383463,
+      "std": 0.13603934603215215,
+      "min": 0.9460569063822428,
+      "max": 1.2167529626326128,
+      "median": 1.0576805830001832
+    },
+    "utilization": {
+      "mean": 0.38578070800875186,
+      "std": 0.04835719922495066,
+      "min": 0.3300524934383202,
+      "max": 0.4166768595673114,
+      "median": 0.410612771020624
+    },
+    "economic_efficiency": {
+      "mean": 100.19107056341954,
+      "std": 0.33094392367346115,
+      "min": 100.0,
+      "max": 100.57321169025863,
+      "median": 100.0
+    },
+    "total_corruptions": 0
+  },
+  "raw_results": [
+    {
+      "simulation_duration": 35.11951422691345,
+      "requests": {
+        "total": 20,
+        "successful": 6,
+        "failed": 14,
+        "success_rate": 30.0,
+        "avg_response_time": 1.0576805830001832,
+        "std_response_time": 0.4615137582298332
+      },
+      "contracts": {
+        "created": 6,
+        "completed": 0,
+        "failed": 0,
+        "avg_duration_hours": 4.02791072415971,
+        "avg_value": 39.994765571404145,
+        "completion_rate": 0.0
+      },
+      "providers": {
+        "avg_utilization": 0.3300524934383202,
+        "avg_reputation": 5.36190281872,
+        "total_earnings": 883.0205245734597,
+        "avg_earnings_per_provider": 294.34017485781993
+      },
+      "network": {
+        "corruptions": 0,
+        "provider_failures": 0,
+        "avg_latency": 0.28360301202293653,
+        "corruption_rate": 0.0
+      },
+      "network_stats": {
+        "requests_processed": 10,
+        "successful_allocations": 6,
+        "failed_allocations": 4,
+        "corrupted_contracts": 0,
+        "active_providers": 3,
+        "total_providers_registered": 0,
+        "avg_response_time": 0.8894457476479667
+      },
+      "provider_stats": [
+        {
+          "requests_received": 0,
+          "requests_accepted": 0,
+          "requests_rejected": 0,
+          "total_earnings": 0.0,
+          "uptime": 31.83869433403015,
+          "avg_utilization": 0.0,
+          "contracts_completed": 0,
+          "current_reputation": 5.0
+        },
+        {
+          "requests_received": 6,
+          "requests_accepted": 6,
+          "requests_rejected": 0,
+          "total_earnings": 239.96859342842487,
+          "uptime": 31.60423445701599,
+          "avg_utilization": 0.5669291338582677,
+          "contracts_completed": 0,
+          "current_reputation": 5.630812096320001
+        },
+        {
+          "requests_received": 0,
+          "requests_accepted": 0,
+          "requests_rejected": 0,
+          "total_earnings": 0.0,
+          "uptime": 26.50920605659485,
+          "avg_utilization": 0.0,
+          "contracts_completed": 0,
+          "current_reputation": 5.0
+        }
+      ],
+      "buyer_stats": [
+        {
+          "requests_sent": 5,
+          "requests_successful": 4,
+          "requests_failed": 1,
+          "total_spent": 164.34712972386671,
+          "total_storage_used": 94,
+          "avg_response_time": 1.183643674850464,
+          "contracts_completed": 0
+        },
+        {
+          "requests_sent": 5,
+          "requests_successful": 2,
+          "requests_failed": 3,
+          "total_spent": 75.62146370455815,
+          "total_storage_used": 50,
+          "avg_response_time": 0.9317174911499023,
+          "contracts_completed": 0
+        }
+      ],
+      "economics": {
+        "total_provider_earnings": 239.96859342842487,
+        "total_buyer_spending": 239.96859342842487,
+        "economic_efficiency": 100.0
+      }
+    },
+    {
+      "simulation_duration": 35.32827043533325,
+      "requests": {
+        "total": 30,
+        "successful": 7,
+        "failed": 23,
+        "success_rate": 23.333333333333332,
+        "avg_response_time": 0.9460569063822428,
+        "std_response_time": 0.41707733206594266
+      },
+      "contracts": {
+        "created": 7,
+        "completed": 0,
+        "failed": 0,
+        "avg_duration_hours": 3.064323607533723,
+        "avg_value": 54.02900819063603,
+        "completion_rate": 0.0
+      },
+      "providers": {
+        "avg_utilization": 0.410612771020624,
+        "avg_reputation": 5.241519798000001,
+        "total_earnings": 917.1928075460983,
+        "avg_earnings_per_provider": 305.7309358486994
+      },
+      "network": {
+        "corruptions": 0,
+        "provider_failures": 1,
+        "avg_latency": 0.2698078668450062,
+        "corruption_rate": 0.0
+      },
+      "network_stats": {
+        "requests_processed": 15,
+        "successful_allocations": 7,
+        "failed_allocations": 8,
+        "corrupted_contracts": 0,
+        "active_providers": 3,
+        "total_providers_registered": 0,
+        "avg_response_time": 0.9848713375971865
+      },
+      "provider_stats": [
+        {
+          "requests_received": 3,
+          "requests_accepted": 3,
+          "requests_rejected": 0,
+          "total_earnings": 135.49096932175638,
+          "uptime": 31.805067539215088,
+          "avg_utilization": 0.3360655737704918,
+          "contracts_completed": 0,
+          "current_reputation": 5.30604
+        },
+        {
+          "requests_received": 5,
+          "requests_accepted": 4,
+          "requests_rejected": 1,
+          "total_earnings": 242.71208801269583,
+          "uptime": 31.565394639968872,
+          "avg_utilization": 0.782258064516129,
+          "contracts_completed": 0,
+          "current_reputation": 5.303917584000001
+        },
+        {
+          "requests_received": 0,
+          "requests_accepted": 0,
+          "requests_rejected": 0,
+          "total_earnings": 0.0,
+          "uptime": 26.670870780944824,
+          "avg_utilization": 0.0,
+          "contracts_completed": 0,
+          "current_reputation": 5.0
+        }
+      ],
+      "buyer_stats": [
+        {
+          "requests_sent": 8,
+          "requests_successful": 4,
+          "requests_failed": 4,
+          "total_spent": 164.1413010349497,
+          "total_storage_used": 118,
+          "avg_response_time": 0.9171609282493591,
+          "contracts_completed": 0
+        },
+        {
+          "requests_sent": 7,
+          "requests_successful": 3,
+          "requests_failed": 4,
+          "total_spent": 214.0617562995025,
+          "total_storage_used": 84,
+          "avg_response_time": 0.9790808813912528,
+          "contracts_completed": 0
+        }
+      ],
+      "economics": {
+        "total_provider_earnings": 378.2030573344522,
+        "total_buyer_spending": 378.2030573344522,
+        "economic_efficiency": 100.0
+      }
+    },
+    {
+      "simulation_duration": 35.65573859214783,
+      "requests": {
+        "total": 22,
+        "successful": 10,
+        "failed": 12,
+        "success_rate": 45.45454545454545,
+        "avg_response_time": 1.2167529626326128,
+        "std_response_time": 0.3022183267220297
+      },
+      "contracts": {
+        "created": 10,
+        "completed": 0,
+        "failed": 0,
+        "avg_duration_hours": 3.28326161949446,
+        "avg_value": 33.64266884336078,
+        "completion_rate": 0.0
+      },
+      "providers": {
+        "avg_utilization": 0.4166768595673114,
+        "avg_reputation": 5.319161771232,
+        "total_earnings": 1133.6751306941658,
+        "avg_earnings_per_provider": 377.8917102313886
+      },
+      "network": {
+        "corruptions": 0,
+        "provider_failures": 0,
+        "avg_latency": 0.2933372125605694,
+        "corruption_rate": 0.0
+      },
+      "network_stats": {
+        "requests_processed": 11,
+        "successful_allocations": 10,
+        "failed_allocations": 1,
+        "corrupted_contracts": 0,
+        "active_providers": 3,
+        "total_providers_registered": 0,
+        "avg_response_time": 0.9910612810741771
+      },
+      "provider_stats": [
+        {
+          "requests_received": 0,
+          "requests_accepted": 0,
+          "requests_rejected": 0,
+          "total_earnings": 0.0,
+          "uptime": 32.251018047332764,
+          "avg_utilization": 0.0,
+          "contracts_completed": 0,
+          "current_reputation": 5.0
+        },
+        {
+          "requests_received": 6,
+          "requests_accepted": 6,
+          "requests_rejected": 0,
+          "total_earnings": 211.5500318685602,
+          "uptime": 32.17092752456665,
+          "avg_utilization": 0.6889763779527559,
+          "contracts_completed": 0,
+          "current_reputation": 5.630812096320001
+        },
+        {
+          "requests_received": 4,
+          "requests_accepted": 4,
+          "requests_rejected": 0,
+          "total_earnings": 126.80509367229908,
+          "uptime": 26.996111154556274,
+          "avg_utilization": 0.46601941747572817,
+          "contracts_completed": 0,
+          "current_reputation": 5.4121608000000005
+        }
+      ],
+      "buyer_stats": [
+        {
+          "requests_sent": 6,
+          "requests_successful": 5,
+          "requests_failed": 1,
+          "total_spent": 183.77785244724868,
+          "total_storage_used": 154,
+          "avg_response_time": 1.2763222058614094,
+          "contracts_completed": 0
+        },
+        {
+          "requests_sent": 5,
+          "requests_successful": 5,
+          "requests_failed": 0,
+          "total_spent": 152.64883598635913,
+          "total_storage_used": 144,
+          "avg_response_time": 1.1452698707580566,
+          "contracts_completed": 0
+        }
+      ],
+      "economics": {
+        "total_provider_earnings": 338.35512554085926,
+        "total_buyer_spending": 336.4266884336078,
+        "economic_efficiency": 100.57321169025863
+      }
+    }
+  ]
+}
